@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    background-image: url(./img/fondo.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: black;
+    line-height: 1.6;
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
+
+
+.sobrenosotros {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 2.0;
+    border: solid;
+    text-align: center;
+}
+
+
+.nosotros li {
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    font-family: "DM Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    z-index: 2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.footer a {
+    color: aliceblue;
+}
+
+.footer a:hover {
+    color: rgb(255, 0, 0);
+}
+
+@media (max-width: 576px) {
+    body {
+        width: 100%;
+        padding: 10px;
+        background-size: cover;
+    }
+
+    .nosotros li {
+        font-size: 1.2rem;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        width: 90%;
+        background-size: cover;
+    }
+
+    .nosotros li {
+        font-size: 1.3rem;
+        padding: 10px;
+    }
+
+}
+
+
+@media (max-width: 992px) {
+    body {
+        width: 80%;
+        background-size: cover;
+    }
+
+
+
+    @media (max-width: 425px) {
+
+        body {
+            width: 95%;
+        }
+
+        img {
+            width: 89%;
+        }
+
+
+    }
+
+    @media (max-width: 320px) {
+
+        body {
+            width: 95%;
+        }
+
+        img {
+            width: 89%;
+        }
+
+
+    }
+
+    @media (max-width: 375px) {
+
+        body {
+            width: 95%;
+        }
+
+        img {
+            width: 89%;
+        }
+
+    }
+
+
+}

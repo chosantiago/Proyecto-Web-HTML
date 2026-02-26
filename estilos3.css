@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 960px;
+}
+
+.hb20img,
+.velosterimg {
+  background-color: rgb(17, 153, 207);
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 4rem;
+  line-height: 2.0;
+  border: solid;
+  color: black;
+  box-shadow: 13px 10px 4px rgb(26, 160, 201);
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.ancho {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.footer a {
+  color: aliceblue;
+}
+
+.footer a:hover {
+  color: rgb(255, 0, 0);
+}
+
+@media (min-width: 320px) {
+  body {
+    max-width: 315px;
+  }
+
+  .hb20img,
+  .velosterimg {
+    padding: 3rem;
+    font-size: 1.4rem;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 375px) {
+  body {
+    max-width: 370px;
+  }
+
+  .hb20img,
+  .velosterimg {
+    padding: 3rem;
+    font-size: 1.4rem;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 425px) {
+  body {
+    max-width: 420px;
+  }
+
+  .hb20img,
+  .velosterimg {
+    padding: 3rem;
+    font-size: 1.4rem;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    max-width: 760px;
+  }
+
+  .hb20img,
+  .velosterimg {
+    padding: 4rem;
+    font-size: 1.6rem;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    max-width: 990px;
+  }
+
+  .hb20img,
+  .velosterimg {
+    padding: 5rem;
+    font-size: 1.8rem;
+  }
+
+  img {
+    width: 100%;
+  }
+
+}
