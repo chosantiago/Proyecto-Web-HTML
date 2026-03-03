@@ -121,6 +121,10 @@ html {
   justify-content: flex-end
 }
 
+.contacto {
+  padding: 20px;
+}
+
 .footer {
   background-color: black;
   color: aliceblue;
@@ -232,11 +236,7 @@ html {
       width: 95%;
     }
   }
-
-  .contacto {
-  padding: 20px;
-}
-
-
+  
 
 }
+
